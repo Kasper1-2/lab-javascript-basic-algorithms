@@ -7,31 +7,31 @@ console.log(`The Navigator's name is ${hacker2}`)
 
 //Iteration 2: Conditionals
 
-// if (hacker1.length > hacker2.length ){
-//     let charNum = hacker1.length;
-//     console.log("The driver has the longest name, it has " + charNum + " characters.")
-// } else if (hacker1.length < hacker2.length){
-//     let charNum = hacker2.length
-//     console.log(`It seems that the navigator has the longest name, it has ${charNum} characters.`)
-// } else{
-//     let charNum = hacker1.length;
-//     console.log(`Wow, you both have equally long names, ${charNum} characters!`)
-// }
+if (hacker1.length > hacker2.length ){
+    let charNum = hacker1.length;
+    console.log("The driver has the longest name, it has " + charNum + " characters.")
+} else if (hacker1.length < hacker2.length){
+    let charNum = hacker2.length
+    console.log(`It seems that the navigator has the longest name, it has ${charNum} characters.`)
+} else{
+    let charNum = hacker1.length;
+    console.log(`Wow, you both have equally long names, ${charNum} characters!`)
+}
 // Iteration 3: Loops //
 
 
-// let name = ""
-// for (let i = 0; i < hacker1.length; i++){
-//     name += hacker1[i].toUpperCase() + " " 
-// } 
-// console.log(name)
+let name = ""
+for (let i = 0; i < hacker1.length; i++){
+    name += hacker1[i].toUpperCase() + " " 
+} 
+console.log(name)
 
-// let name2 = ""
-// for (let i = hacker2.length -1; i >=0; i--) {
-//     name2 += hacker2[i].toUpperCase() + " "
+let name2 = ""
+for (let i = hacker2.length -1; i >=0; i--) {
+    name2 += hacker2[i].toUpperCase() + " "
     
-// }
-// console.log(name2)
+}
+console.log(name2)
 
 const names = [hacker1, hacker2];
 
@@ -45,5 +45,3 @@ if (newArray[0] == hacker1){
 } else {
     console.log("What?! You both have the same name?")
 }
-
-// Iteration 3.2: Loops 
